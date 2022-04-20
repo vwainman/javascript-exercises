@@ -6,5 +6,11 @@ const getTheTitles = function (books) {
     return titles
 };
 
+// solution:
+// const getTheTitles = function (array) {
+//     return array.map(book => book.title);
+// };
+// NOTE TO SELF: advanced but just as readable
+
 // Do not edit below this line
 module.exports = getTheTitles;

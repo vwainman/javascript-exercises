@@ -9,5 +9,11 @@ const reverseString = function (string) {
     return reversedString
 };
 
+// solution:
+// const reverseString = function (string) {
+//     return string.split('').reverse().join('');
+// };
+// Note to self: take advantage of array functionalities by converting str -> arr
+
 // Do not edit below this line
 module.exports = reverseString;

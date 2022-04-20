@@ -18,5 +18,17 @@ const palindromes = function (string) {
     }
 }
 
+// solution:
+// const palindromes = function (string) {
+//     processedString = string.toLowerCase().replace(/[^a-z]/g, "");
+//     return (
+//         processedString
+//             .split("")
+//             .reverse()
+//             .join("") == processedString
+//     );
+// };
+// NOTE TO SELF: again, apply functionality of arrays to your advantage to minimize complexity.
+
 // Do not edit below this line
 module.exports = palindromes;
